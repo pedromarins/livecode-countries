@@ -1,3 +1,67 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: #F9F9F9;
+}
+
 body {
-    /* background: red; */
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #FFFFFF;
+    height: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 0 10%;
+}
+
+main {
+    padding: 1em 0;
+}
+
+.card {
+    background: #FFFFFF;
+    margin: 0 15vw;
+    padding-bottom: 1em;
+    box-shadow: 0 0 10px #DDD;
+    border-radius: 5px;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    margin: 1em 10%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.card-content {
+    font-weight: 300;
+    list-style: none;
+    padding: 0;
+    margin: 0 10%;
+    font-size: 0.8em;
+}
+
+.card-content li {
+    margin-bottom: 0.5em;
+}
+
+.card-content strong {
+    margin-right: 0.5em;
 }
