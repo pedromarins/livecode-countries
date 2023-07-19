@@ -33,7 +33,7 @@ main {
 
 .card {
     background: #FFFFFF;
-    margin: 0 15vw;
+    margin: 0 15vw 2em;
     padding-bottom: 1em;
     box-shadow: 0 0 10px #DDD;
     border-radius: 5px;
