@@ -6,7 +6,7 @@ const countryName = loc.search.split('=')[1]
     
 async function catchCountry() {
     try {
-      const response = await fetch(baseURL + `name/${countryName}?fullText=true`, {
+      const response = await fetch(baseURL + `name/${countryName}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -21,4 +21,14 @@ async function catchCountry() {
 
 catchCountry().then(function(response) {
     console.log(response)
+    console.log(response[0].name.common)
+    console.log(response[0].name.nativeName)
+    console.log(response[0].population)
+    console.log(response[0].region)
+    console.log(response[0].subregion)
+    console.log(response[0].capital)
+    console.log(response[0].tld)
+    console.log(response[0].currencies)
+    console.log(response[0].languages)
+    console.log(response[0].borders)
   })
