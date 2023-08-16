@@ -8,15 +8,17 @@ Lista de funcionalidades a serem desenvolvidas para o projeto:
 - [X] Criar um campo de busca
 - [X] Filtrar os elementos da página com o resultado da busca
 
-- [ ] Filtro para países por região
-- [ ] Conectar o filtro com a API
-- [ ] Atualizar a página inicial
+- [X] Criar página de um país
+- [ ] Conectar com a API para pegar dados do país
+- [ ] Ao clicar em um país chegar na página com mais informações detalhadas
 
-- [ ] Criar página de um país
-- [ ] Ao clicar em um país chegar na págian com mais informações detalhadas
 
 - [ ] Listar as fronteiras de um país
 - [ ] Ao clicar em um país de fronteira, exibir a página do país
+
+- [ ] Filtro para países por região
+- [ ] Conectar o filtro com a API
+- [ ] Atualizar a página inicial
 
 (opcional)
 - [ ] Toggle do light e dark mode

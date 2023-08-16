@@ -39,6 +39,11 @@ main {
     border-radius: 5px;
 }
 
+.card a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .card-image {
     width: 100%;
     border-radius: 5px 5px 0 0;
