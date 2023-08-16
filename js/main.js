@@ -42,9 +42,9 @@ search.addEventListener("input", () => {
 
   countriesList.forEach(country => {
     if(!country.textContent.toLowerCase().includes(search.value.toLowerCase())) {
-      country.parentNode.style.display = 'none'
+      country.parentNode.parentNode.style.display = 'none'
     } else {
-      country.parentNode.style.display = 'block'
+      country.parentNode.parentNode.style.display = 'block'
     }
   })
 })

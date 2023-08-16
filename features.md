@@ -9,7 +9,7 @@ Lista de funcionalidades a serem desenvolvidas para o projeto:
 - [X] Filtrar os elementos da página com o resultado da busca
 
 - [X] Criar página de um país
-- [ ] Conectar com a API para pegar dados do país
+- [X] Conectar com a API para pegar dados do país
 - [ ] Ao clicar em um país chegar na página com mais informações detalhadas
 
 
