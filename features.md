@@ -3,9 +3,9 @@ Lista de funcionalidades a serem desenvolvidas para o projeto:
 - [X] Criar uma homepage
 - [X] Criar o card de um país
 - [X] Conectar na API
-- [ ] Ver todos os países na página inicial
+- [X] Ver todos os países na página inicial
 
-- [ ] Criar um campo de busca
+- [X] Criar um campo de busca
 - [ ] Conectar o campo de busca na API
 - [ ] Atualizar a página inicial
 

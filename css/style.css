@@ -65,3 +65,15 @@ main {
 .card-content strong {
     margin-right: 0.5em;
 }
+
+.search {
+    margin: 0 5vw 2em;
+    width: 90vw;
+    border: none;
+    box-shadow: 0 0 10px #DDD;
+    padding: 1em 1em 1em 4em;
+    font-size: 1em;
+    border-radius: 5px;
+    background: url(../img/magnifying-glass-solid.svg) no-repeat 25px;
+    background-size: 1em;
+}
