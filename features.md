@@ -6,8 +6,7 @@ Lista de funcionalidades a serem desenvolvidas para o projeto:
 - [X] Ver todos os países na página inicial
 
 - [X] Criar um campo de busca
-- [ ] Conectar o campo de busca na API
-- [ ] Atualizar a página inicial
+- [X] Filtrar os elementos da página com o resultado da busca
 
 - [ ] Filtro para países por região
 - [ ] Conectar o filtro com a API

@@ -1,6 +1,6 @@
 const baseURL = "https://restcountries.com/v3.1/"
 const content = document.querySelector("#content")
-
+const search = document.querySelector("#search")
 
 async function catchAllCountries() {
     try {
@@ -19,7 +19,7 @@ async function catchAllCountries() {
 
 catchAllCountries().then(function(response) {
   response.forEach(country => {
-    console.log(country)
+    // console.log(country)
     const card = document.createElement('figure');
         card.innerHTML = `
           <img class="card-image" src="${country.flags.png}" alt="">
@@ -35,3 +35,17 @@ catchAllCountries().then(function(response) {
         content.appendChild(card);
   });
 })
+
+search.addEventListener("input", () => {
+  const countriesList = document.querySelectorAll('.card-title')
+
+  countriesList.forEach(country => {
+    if(!country.textContent.toLowerCase().includes(search.value.toLowerCase())) {
+      country.parentNode.style.display = 'none'
+    } else {
+      country.parentNode.style.display = 'block'
+    }
+  })
+})
+
+
